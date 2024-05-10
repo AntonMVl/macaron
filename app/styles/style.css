@@ -1,0 +1,5 @@
+@import './vendor/normalize.css';
+@import 'globals.css';
+.header {
+  color: yellow;
+}
