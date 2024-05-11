@@ -1,5 +1,18 @@
 @import './vendor/normalize.css';
 @import 'globals.css';
 .header {
-  color: yellow;
+  padding: 12px 50px;
+}
+
+.header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__link-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 14px;
 }
