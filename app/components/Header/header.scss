@@ -1,12 +1,61 @@
 .header {
 	padding: 12px 50px;
+	background-color: #f7ebe5;
 }
 
 .header__list {
 	display: flex;
+	gap: 76px;
+}
+
+.header__item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header__item_gap_big {
+	display: flex;
+	gap: 30px;
 }
 
 .header__link-container {
 	display: flex;
 	gap: 14px;
+}
+
+.header__city-container {
+	display: flex;
+	gap: 5px;
+	justify-content: center;
+	align-items: center;
+}
+
+.header__phone-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header__basket-container {
+	position: relative;
+}
+
+.header__basket-button {
+	display: flex;
+	gap: 7.5px;
+	justify-content: center;
+	align-items: center;
+}
+
+.header__basket-target {
+	width: 16px;
+	height: 16px;
+	top: 13px;
+	left: 12px;
+	font-size: 13px;
+	position: absolute;
+	border-radius: 50%;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
 }
