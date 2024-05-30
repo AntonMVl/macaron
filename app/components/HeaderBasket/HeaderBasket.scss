@@ -1,5 +1,8 @@
 .header__basket-container {
 	position: relative;
+	display: flex;
+	flex-direction: row;
+	gap: 5px;
 }
 
 .header__basket-button {
@@ -12,10 +15,10 @@
 .header__basket-target {
 	width: 16px;
 	height: 16px;
+	position: absolute;
 	top: 13px;
 	left: 12px;
 	font-size: 13px;
-	position: absolute;
 	border-radius: 50%;
 	background-color: #000;
 	color: #fff;

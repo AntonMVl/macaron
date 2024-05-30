@@ -2,6 +2,14 @@
 @import 'globals.css';
 .header__basket-container {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 5px;
 }
 
 .header__basket-button {
@@ -20,10 +28,10 @@
 .header__basket-target {
   width: 16px;
   height: 16px;
+  position: absolute;
   top: 13px;
   left: 12px;
   font-size: 13px;
-  position: absolute;
   border-radius: 50%;
   background-color: #000;
   color: #fff;
@@ -43,12 +51,15 @@
           align-items: center;
 }
 
-.header {
-  padding: 12px 50px;
-  background-color: #f7ebe5;
+.header__down-container {
+  width: 100%;
+  background-color: #fff;
 }
 
 .header__list {
+  max-width: 100%;
+  padding: 12px 50px;
+  background-color: #f7ebe5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -104,4 +115,22 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.header {
+  max-width: 100%;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }

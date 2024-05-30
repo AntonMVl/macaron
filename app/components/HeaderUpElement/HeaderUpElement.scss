@@ -1,0 +1,36 @@
+.header__list {
+	max-width: 100%;
+	padding: 12px 50px;
+	background-color: #f7ebe5;
+	display: flex;
+	gap: 76px;
+}
+
+.header__item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header__item_gap_big {
+	display: flex;
+	gap: 30px;
+}
+
+.header__link-container {
+	display: flex;
+	gap: 14px;
+}
+
+.header__city-container {
+	display: flex;
+	gap: 5px;
+	justify-content: center;
+	align-items: center;
+}
+
+.header__phone-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
